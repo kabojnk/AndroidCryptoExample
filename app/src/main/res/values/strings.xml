@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Crypto Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="instructions">Enter text to encrypt/decrypt</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="result_encrypted">Result (Encrypted)</string>
+    <string name="result_decrypted">Result (Decrypted)</string>
+    <string name="copy">Copy to clipboard</string>
+    <string name="paste">Paste</string>
+    <string name="output_example">Output will show up here</string>
+    <string name="example_input">Enter some text here...</string>
+    <string name="clear">Clear All</string>
+</resources>
