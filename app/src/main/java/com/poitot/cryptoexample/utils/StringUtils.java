@@ -1,4 +1,4 @@
-package poitot.com.cryptoexample.utils;
+package com.poitot.cryptoexample.utils;
 
 /**
  * String helper methods

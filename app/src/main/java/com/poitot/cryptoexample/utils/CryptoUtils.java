@@ -1,4 +1,4 @@
-package poitot.com.cryptoexample.utils;
+package com.poitot.cryptoexample.utils;
 
 import android.util.Base64;
 
@@ -15,7 +15,7 @@ import javax.crypto.spec.SecretKeySpec;
 /**
  * Cryptographic helper methods
  */
-public class CrytoUtils {
+public class CryptoUtils {
 
     private static final int ITERATIONS = 1000;
     private static final int KEY_LENGTH = 256;

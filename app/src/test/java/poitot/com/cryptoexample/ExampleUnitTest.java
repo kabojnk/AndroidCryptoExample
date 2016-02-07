@@ -1,4 +1,4 @@
-package poitot.com.cryptoexample;
+package com.poitot.cryptoexample;
 
 import org.junit.Test;
 

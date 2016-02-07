@@ -1,8 +1,6 @@
-package poitot.com.cryptoexample;
+package com.poitot.cryptoexample;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -13,9 +11,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import poitot.com.cryptoexample.utils.ClipboardUtils;
-import poitot.com.cryptoexample.utils.CrytoUtils;
-import poitot.com.cryptoexample.utils.StringUtils;
+import com.poitot.cryptoexample.utils.ClipboardUtils;
+import com.poitot.cryptoexample.utils.CryptoUtils;
+import com.poitot.cryptoexample.utils.StringUtils;
 import timber.log.Timber;
 
 public class MainActivity extends AppCompatActivity {
@@ -87,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 try {
-                    final String encryptedText = CrytoUtils.encryptText(CRYPTO_PASSWORD.toCharArray(), plainText);
+                    final String encryptedText = CryptoUtils.encryptText(CRYPTO_PASSWORD.toCharArray(), plainText);
                     mTvOutput.setText(encryptedText);
                 } catch (Exception e) {
                     Timber.e(e, "mBtnEncrypt.onClick() -- Could not encrypt text");
@@ -107,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 try {
-                    final String decrypedText = CrytoUtils.decryptData(CRYPTO_PASSWORD.toCharArray(), encryptedText);
+                    final String decrypedText = CryptoUtils.decryptData(CRYPTO_PASSWORD.toCharArray(), encryptedText);
                     mTvOutput.setText(decrypedText);
                 } catch (Exception e) {
                     Timber.e(e, "mBtnDecrypt.onClick() -- Could not decrypt text");

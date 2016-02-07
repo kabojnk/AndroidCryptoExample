@@ -1,4 +1,4 @@
-package poitot.com.cryptoexample.utils;
+package com.poitot.cryptoexample.utils;
 
 import android.app.Application;
 import android.content.ClipData;
